@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de personaje D&D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hoja de personaje</h1>
+    <input type="text" id="username" placeholder="Nombre de usuario">
+    <button id="load">Cargar</button>
+    <button id="save">Guardar</button>
+
+    <!--<div id="character-sheet">
+        <textarea id="character-data" placeholder="Datos del personaje"></textarea>
+    </div>
+    -->
+
+    <div class="container">
+        <div class="section">
+            <h2>Información Básica</h2>
+
+            <label>Nombre: </label>
+            <input type="text" id="character-name">
+
+            <label>Clase: </label>
+            <input type="text" id="character-class">
+
+            <label>Raza: </label>
+            <input type="text" id="character-race">
+
+            <label>Nivel: </label>
+            <input type="number" id="character-level" min="1" value="1">
+
+            <label>Transfondo: </label>
+            <input type="text" id="character-background">
+        </div>
+        <br>
+        <div class="section">
+            <h2>Atributos</h2>
+
+            <label>Fuerza: </label>
+            <input type="number" id="strength" value="0">
+
+            <label>Destreza: </label>
+            <input type="number" id="dexterity" value="0">
+
+            <label>Constitución: </label>
+            <input type="number" id="constitution" value="0">
+
+            <label>Inteligencia: </label>
+            <input type="number" id="intelligence" value="0">
+
+            <label>Sabiduría: </label>
+            <input type="number" id="wisdom" value="0">
+
+            <label>Carisma: </label>
+            <input type="number" id="charisma" value="0">
+        </div>
+        <br>
+        <div class="section">
+            <h2>Habilidades</h2>
+
+            <label>Acrobacias: </label>
+            <input type="number" id="stunts" value="0">
+
+            <label>Atletismo: </label>
+            <input type="number" id="athleticism" value="0">
+
+            <label>Conocimiento Arcano: </label>
+            <input type="number" id="arcaneKnowledge" value="0">
+
+            <label>Engaño: </label>
+            <input type="number" id="deceit" value="0">
+
+            <label>Historia: </label>
+            <input type="number" id="history" value="0">
+
+            <label>Interpretación: </label>
+            <input type="number" id="interpretation" value="0">
+
+            <label>Intimidación: </label>
+            <input type="number" id="intimidation" value="0">
+
+            <label>Investigacón: </label>
+            <input type="number" id="research" value="0">
+
+            <label>Juego de Manos: </label>
+            <input type="number" id="sleightOfHand" value="0">
+
+            <label>Medicina: </label>
+            <input type="number" id="medicine" value="0">
+
+            <label>Naturaleza: </label>
+            <input type="number" id="nature" value="0">
+
+            <label>Percepción: </label>
+            <input type="number" id="perception" value="0">
+
+            <label>Perspicacia: </label>
+            <input type="number" id="insight" value="0">
+
+            <label>Persuación: </label>
+            <input type="number" id="persuasion" value="0">
+
+            <label>Religión: </label>
+            <input type="number" id="religon" value="0">
+
+            <label>Sigilo: </label>
+            <input type="number" id="stealth" value="0">
+
+            <label>Supervivencia: </label>
+            <input type="number" id="survival" value="0">
+
+            <label>Trato con Animales: </label>
+            <input type="number" id="dealingWithAnimals" value="0">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
